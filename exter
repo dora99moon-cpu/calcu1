@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Progress</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Task Progress</h1>
+
+<table>
+
+<tr>
+    <th>Task</th>
+    <th>Status</th>
+    <th>Deadline</th>
+</tr>
+
+<tr>
+    <td>Design Mockup</td>
+    <td class="completed">Completed</td>
+    <td>August 15</td>
+</tr>
+
+<tr>
+    <td>Write Documentation</td>
+    <td class="progress">In Progress</td>
+    <td>August 20</td>
+</tr>
+
+<tr>
+    <td>Testing Phase</td>
+    <td span class="pending">Pending</td>
+    <td>August 25</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+
+
+
+//csssssssssssssssssss
+
+
+
+body{
+    font-family:Arial;
+}
+
+h1{
+    background:green;
+    color:white;
+    text-align:center;
+    width:700px;
+    padding:15px;
+}
+
+table{
+    width:700px;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+th{
+    background:green;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border:1px solid lightgray;
+}
+
+
+.completed{
+    background:#63b246;
+    color:white;
+    padding:10px 25px;
+    border-radius:10px;
+}
+
+.progress{
+    background:#e7b400;
+    color:white;
+    padding:10px 25px;
+    border-radius:10px;
+}
+
+.pending{
+    background:#d62d20;
+    color:white;
+    padding:10px 25px;
+    border-radius:10px;
+}
